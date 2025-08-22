@@ -1,0 +1,33 @@
+{
+  "name": "temmel/dhlpackageapi",
+  "description": "DHL Package API client for PHP",
+  "keywords": [
+    "dhl",
+    "parcel",
+    "package",
+    "api"
+  ],
+  "homepage": "https://github.com/ma-temmel/DHLPackageAPI",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marcel Albrecht",
+      "email": "marcel.albrecht@temmel-fundraising.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "ext-json": "*",
+    "composer/ca-bundle": "^1.2",
+    "guzzlehttp/guzzle": "^6.4 || ^7.1",
+    "ramsey/uuid": "^4.0",
+    "tightenco/collect": "^5.8 || ^6.0 || ^7.0 || ^8.0",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Temmel\\DHLPackageAPI\\": "src/"
+    }
+  }
+}
