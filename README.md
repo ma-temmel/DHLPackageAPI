@@ -44,21 +44,25 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `ma-temmel`, `DHLPackageAPI`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+This is a Composer Package to handle most of the tasks on the DHL API to send packages and track its whereabouts. 
+Initially only created for our own needs, but why not release it.
+I could not find anything like this. so here you have it... use it like you want.
+
+I used [ mvdnbrk/dhlparcel-php-api ](https://github.com/mvdnbrk/dhlparcel-php-api) as my basis and changed some stuff and build my own version.
+
+This Package uses and older version of "collection" to ensure backwards-compatibility.
+Maybe some time in the future I will upgrade it. We will see.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+It's a composer package.. what else to say?
 
 ### Installation & Usage
 
