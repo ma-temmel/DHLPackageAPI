@@ -27,7 +27,7 @@
     "ext-mbstring": "*"
   },
   "require-dev": {
-    "symfony/var-dumper": "^5.0"
+    "symfony/var-dumper": "4.4.47"
   },
   "autoload": {
     "psr-4": {
