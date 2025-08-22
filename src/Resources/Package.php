@@ -34,7 +34,6 @@
 			$this->sender = new Recipient;
 
 
-
 			parent::__construct($attributes);
 		}
 
@@ -76,6 +75,7 @@
 		public function toArray(): array {
 
 			$shipments = [
+				'profile'       => $this->profile,
 				'product'       => $this->product,
 				'billingNumber' => $this->billingNumber,
 				'refNo'         => $this->refNo,
